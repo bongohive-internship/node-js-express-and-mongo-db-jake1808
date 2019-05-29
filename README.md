@@ -40,6 +40,19 @@ In this repository, navigate to the src folder and open index.js file in any edi
    - GET ('/startups') should return a json object list of all startups in the startups collection.
    - PUT ('/startup') should edit and update requestd startup with sent startup details.
    
+ # materials to read
+ 
+ During the couse of this course you can use but not limited to the following online materials
+ 
+ - https://www.npmjs.com/package/mongodb
+ - https://www.w3schools.com/nodejs/nodejs_mongodb_create_db.asp
+ - https://www.w3schools.com/nodejs/nodejs_mongodb.asp
+ - https://www.guru99.com/node-js-mongodb.html
+ - https://flaviocopes.com/node-mongodb/
+ - https://www.tutorialsteacher.com/nodejs/access-mongodb-in-nodejs
+ - https://medium.com/@dinyangetoh/how-to-build-simple-restful-api-with-nodejs-expressjs-and-mongodb-99348012925d
+ 
+   
 # Assignment
  
  
