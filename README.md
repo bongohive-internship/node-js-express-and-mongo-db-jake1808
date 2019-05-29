@@ -39,6 +39,8 @@ In this repository, navigate to the src folder and open index.js file in any edi
    - GET ('/startup') should return a startup when given the name of a startup founder.
    - GET ('/startups') should return a json object list of all startups in the startups collection.
    - PUT ('/startup') should edit and update requestd startup with sent startup details.
+   
+# Assignment
  
  
  
