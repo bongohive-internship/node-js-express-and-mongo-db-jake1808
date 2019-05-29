@@ -17,25 +17,28 @@ Its a good practice to always have the mongo db daemon (mongod) running as a ser
 
 In this repository, navigate to the src folder and open index.js file in any editor of your choice.
 
-if you are successfull, do the following;
+> if you are successfull, do the following;
 
-- install and add Express js to the index.js file
-- install and add mongodb package to index.js file
-- create a mongo db database called bongohive
-- create a collection called startups with the following schema, use default ids for all documents
-
+ - install and add Express js to the index.js file
+ - install and add mongodb package to index.js file
+ - create a mongo db database called bongohive
+ - create a collection called startups with the following schema, use default ids for all documents
+ 
+  ``` javascript
   startup {
+        id: 'use default id that mongo db provides'
         name : 'name of startup'
         description: 'description of the startup'
         startDate: 'date when the startup started'
         founder: 'name of startup founder'
     }
+  ```  
     
-- create the following routes
- - POST ('/startup') it should insert startup document into startups collection when it is given the startup document details
- - GET ('/startup') should return a startup when given the name of a startup founder.
- - GET ('/startups') should return a json object list of all startups in the startups collection.
- - PUT ('/startup') should edit and update requestd startup with sent startup details.
+> create the following routes
+  - POST ('/startup') it should insert startup document into startups collection when it is given the startup document details
+  - GET ('/startup') should return a startup when given the name of a startup founder.
+  - GET ('/startups') should return a json object list of all startups in the startups collection.
+  - PUT ('/startup') should edit and update requestd startup with sent startup details.
  
  
  
