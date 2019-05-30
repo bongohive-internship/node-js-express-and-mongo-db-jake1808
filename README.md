@@ -1,15 +1,15 @@
-# node-with-mongo-db
+# Node-with-mongo-db-and-express
 This will teach and test you on how to connect to mongo db, create databases, collections and adding and retrieving documents.
 With Express and Node JS.
 
 
-# getting started
+# Getting started
 
 Lets extend the last course that we did on running Node JS with Express JS package. You will need to extend the routes so that instead of accessing data from arrays and json objects, your Node JS server should store and retrieve from mongo db database.
 
 You have familiarized with mongo db nosql database in the last course. You will not be using mongo db shell in this course but you will access mongo db from Node JS.
 
-# jumping into code
+# Jumping into code
 
 To work with mongo db from Node JS, Node JS offers a package that helps to connect to the running mongo db daemon (mongod). You will need to install the mongo db package with npm to get started with mongo db from Node JS.
 
@@ -22,7 +22,7 @@ In this repository, navigate to the src folder and open index.js file in any edi
   - install and add Express js to the index.js file
   - install and add mongodb package to index.js file
   - create a mongo db database called bongohive
-  - create a collection called startups with the following schema, use default ids for all documents
+  - create a collection called startups inside bongohive database with the following schem. Use default ids for all documents
  
   ``` javascript
   startup {
@@ -38,9 +38,9 @@ In this repository, navigate to the src folder and open index.js file in any edi
    - POST ('/startup') it should insert startup document into startups collection when it is given the startup document details
    - GET ('/startup') should return a startup when given the name of a startup founder.
    - GET ('/startups') should return a json object list of all startups in the startups collection.
-   - PUT ('/startup') should edit and update requestd startup with sent startup details.
+   - PUT ('/startup') should edit and update requested startup with sent startup details.
    
- # materials to read
+ # Materials to read
  
  During the couse of this course you can use but not limited to the following online materials
  
@@ -51,10 +51,22 @@ In this repository, navigate to the src folder and open index.js file in any edi
  - https://flaviocopes.com/node-mongodb/
  - https://www.tutorialsteacher.com/nodejs/access-mongodb-in-nodejs
  - https://medium.com/@dinyangetoh/how-to-build-simple-restful-api-with-nodejs-expressjs-and-mongodb-99348012925d
+ - https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/
+ - https://docs.mongodb.com/manual/reference/program/mongodump/
  
    
 # Assignment
- 
+Hand in by pushing thisk repository to github, the repository should have the index.js file with all the routes that you created including all the necessary files and folders.
+
+To hand in mongo db, backup the mongo db database bongohive with mongodump tool. Locate the dump folder, change the name of the folder from dump to your name and add the folder to this repository before pushing to github.
+
+
+Submit this repository with the following files
+ - src/index.js
+ - <your name>/bongohive  this is a folder that should have you mongo db database files (e.g johnSnow/bongohive)
+ - node_modules
+ - Other created files  
+
  
  
 
