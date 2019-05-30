@@ -25,7 +25,7 @@ In this repository, navigate to the src folder and open index.js file in any edi
   - create a collection called startups inside bongohive database with the following schem. Use default ids for all documents
  
   ``` javascript
-  startup {
+  startup: {
         id: 'use default id that mongo db provides'
         name : 'name of startup'
         description: 'description of the startup'
