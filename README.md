@@ -56,7 +56,7 @@ In this repository, navigate to the src folder and open index.js file in any edi
  
    
 # Assignment
-Hand in by pushing thisk repository to github, the repository should have the index.js file with all the routes that you created including all the necessary files and folders.
+Hand in this repository by pushing it to github, the repository should have the index.js file with all the routes that you created including all the necessary files and folders.
 
 To hand in mongo db, backup the mongo db database bongohive with mongodump tool. Locate the dump folder, change the name of the folder from dump to your name and add the folder to this repository before pushing to github.
 
@@ -67,6 +67,7 @@ Submit this repository with the following files
  - node_modules
  - Other created files  
 
+DONE
  
  
 
