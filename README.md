@@ -63,7 +63,7 @@ To hand in mongo db, backup the mongo db database bongohive with mongodump tool.
 
 Submit this repository with the following files
  - src/index.js
- - <your name>/bongohive  this is a folder that should have you mongo db database files (e.g johnSnow/bongohive)
+ - your-name/bongohive  this is a folder that should have you mongo db database files (e.g johnSnow/bongohive)
  - node_modules
  - Other created files  
 
